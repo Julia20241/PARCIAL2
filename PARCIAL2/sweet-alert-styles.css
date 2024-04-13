@@ -1,0 +1,51 @@
+/* Estilo para el pop-up */
+.swal2-popup {
+    background-color: #fff; /* Color de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo para el título del pop-up */
+.swal2-title {
+    color: #333; /* Color del texto del título */
+    font-size: 24px; /* Tamaño del texto del título */
+}
+
+/* Estilo para el contenido del pop-up */
+.swal2-content {
+    color: #666; /* Color del texto del contenido */
+    font-size: 16px; /* Tamaño del texto del contenido */
+}
+
+/* Estilo para los botones del pop-up */
+.swal2-actions {
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.swal2-confirm {
+    background-color: #4CAF50; /* Color de fondo del botón de confirmación */
+    color: #fff; /* Color del texto del botón de confirmación */
+    padding: 10px 20px; /* Espaciado interno del botón de confirmación */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.swal2-confirm:hover {
+    background-color: #45a049; /* Color de fondo del botón de confirmación al pasar el mouse */
+}
+
+.swal2-cancel {
+    background-color: #f44336; /* Color de fondo del botón de cancelación */
+    color: #fff; /* Color del texto del botón de cancelación */
+    padding: 10px 20px; /* Espaciado interno del botón de cancelación */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.swal2-cancel:hover {
+    background-color: #d32f2f; /* Color de fondo del botón de cancelación al pasar el mouse */
+}
