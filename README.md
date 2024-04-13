@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sweet-alert-styles.css">
+    <title>RenTransport</title>
+</head>
+<body>
+    <nav id="menu">
+        <a href="#" class="logo">RenTransport</a>
+        <h1 class="Titulo1">Tu vehiculo <br> electrico te esta esperando.</h1>
+        <div id="barra" class="input-container">
+            <input type="text" placeholder="Tu ubicacion">
+            <input type="text" placeholder="Fecha de entrega">
+            <input type="button" value="Encontrar"/>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="column">
+                <div class="car-info">
+                    <img src="/Imágenes/image_1_removebg_preview_1.png" alt="MG 4 CROSS">
+                    <h1>MG 4 CROSS</h1>
+                    <div class="car-properties"> 
+                        <p>PB</p>     
+                        <p>167km</p>
+                        <p>Automática</p>
+                        <p>2WD</p>
+                        <h2>89$</h2>
+                    </div>
+                    <input type="button" id="boton-reservar" value="RESERVAR">
+                </div>
+            </div>
+            <div class="column">
+                <div class="car-info">
+                    <img src="/Imágenes/image_1_removebg_preview_1.png" alt="MG 4 CROSS">
+                    <h1>MG 4 CROSS</h1>
+                    <div class="car-properties"> 
+                        <p>PB</p>     
+                        <p>167km</p>
+                        <p>Automática</p>
+                        <p>2WD</p>
+                        <h2>40$</h2>
+                    </div>
+                    <input type="button" value="RESERVAR">
+                </div>
+            </div>
+            <div class="column">
+                <div class="car-info">
+                    <img src="/Imágenes/image_removebg_preview__1__1.png" alt="Scooter Roadmaster">
+                    <h1>MG 4 CROSS</h1>
+                    <div class="car-properties"> 
+                        <p>PB</p>     
+                        <p>167km</p>
+                        <p>Automática</p>
+                        <p>2WD</p>
+                        <h2>180$</h2>
+                    </div>
+                    <input type="button" value="RESERVAR">
+                </div>
+            </div>
+            <div class="column">
+                <div class="car-info">
+                    <img src="/Imágenes/image_1_removebg_preview_1.png" alt="MG 4 CROSS">
+                    <h1>MG 4 CROSS</h1>
+                    <div class="car-properties"> 
+                        <p>PB</p>     
+                        <p>167km</p>
+                        <p>Automática</p>
+                        <p>2WD</p>
+                        <h2>89$</h2>
+                    </div>
+                    <input type="button" value="RESERVAR">
+                </div>
+            </div>
+            <div class="column">
+                <div class="car-info">
+                    <img src="/Imágenes/image_1_removebg_preview_1.png" alt="MG 4 CROSS">
+                    <h1>MG 4 CROSS</h1>
+                    <div class="car-properties"> 
+                        <p>PB</p>     
+                        <p>167km</p>
+                        <p>Automática</p>
+                        <p>2WD</p>
+                        <h2>40$</h2>
+                    </div>
+                    <input type="button" value="RESERVAR">
+                </div>
+            </div>
+            <div class="column">
+                <div class="car-info">
+                    <img src="/Imágenes/image_removebg_preview__1__1.png" alt="Scooter Roadmaster">
+                    <h1>MG 4 CROSS</h1>
+                    <div class="car-properties"> 
+                        <p>PB</p>     
+                        <p>167km</p>
+                        <p>Automática</p>
+                        <p>2WD</p>
+                        <h2>180$</h2>
+                    </div>
+                    <input type="button" value="RESERVAR">
+                </div>
+            </div>
+            <div class="column">
+                <div class="car-info">
+                    <img src="/Imágenes/image_removebg_preview__1__1.png" alt="Scooter Roadmaster">
+                    <h1>MG 4 CROSS</h1>
+                    <div class="car-properties"> 
+                        <p>PB</p>     
+                        <p>167km</p>
+                        <p>Automática</p>
+                        <p>2WD</p>
+                        <h2>180$</h2>
+                    </div>
+                    <input type="button" value="RESERVAR">
+                </div>
+            </div>
+            <div class="column">
+                <div class="car-info">
+                    <img src="/Imágenes/image_removebg_preview__1__1.png" alt="Scooter Roadmaster">
+                    <h1>MG 4 CROSS</h1>
+                    <div class="car-properties"> 
+                        <p>PB</p>     
+                        <p>167km</p>
+                        <p>Automática</p>
+                        <p>2WD</p>
+                        <h2>180$</h2>
+                    </div>
+                    <input type="button" value="RESERVAR">
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <p>© 2024 RenTransport. Todos los derechos reservados.</p>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="sweet-alert-styles.css"></script>
+    <script src="script.js"></script>
+    </script>
+    
+
+</body>
+
+</html>
+
